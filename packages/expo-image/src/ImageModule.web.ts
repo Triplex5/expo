@@ -9,7 +9,7 @@ class ImageModule extends NativeModule implements ImageNativeModule {
 
   Image: typeof ImageRef = ImageRefWeb;
 
-  async prefetch(urls: string | string[], _, __): Promise<boolean> {
+  async prefetch(urls: string | string[], _: unknown, __: unknown): Promise<boolean> {
     const urlsArray = Array.isArray(urls) ? urls : [urls];
 
     return new Promise<boolean>((resolve) => {
