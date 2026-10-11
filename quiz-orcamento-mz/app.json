@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Quiz Orçamento MZ",
+    "slug": "quiz-orcamento-mz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "quizorcamentomz",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07080B",
+    "primaryColor": "#2ED8FF",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mz.quizorcamento.app",
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Dark"
+      }
+    },
+    "android": {
+      "package": "mz.quizorcamento.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#07080B"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/icon.png",
+      "name": "Quiz Orçamento MZ",
+      "shortName": "Quiz MZ",
+      "themeColor": "#07080B",
+      "backgroundColor": "#07080B",
+      "description": "Jogo educativo sobre o Controlo da Execução Orçamental em Moçambique"
+    }
+  }
+}
